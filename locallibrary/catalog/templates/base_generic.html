@@ -48,7 +48,7 @@
    <li>Staff</li>
    <li><a href="{% url 'all-borrowed' %}">All Borrowed</a></li>
    {% if perms.catalog.add_genre %}
-     <li><a href="{% url 'genre-create' %}">Create gGenre</a></li>
+     <li><a href="{% url 'genre-create' %}">Create Genre</a></li>
    {% endif %}
    {% if perms.catalog.add_language %}
      <li><a href="{% url 'language-create' %}">Create Language</a></li>
